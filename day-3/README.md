@@ -1,4 +1,4 @@
-<!-- Session 01 -->
+## Session 01 
 1. Practiced Emmet abbreviations (before → after expansions).
 -> /session-01/emmet-practice.html
 
@@ -11,7 +11,7 @@
 -> /session-01/app.js
 
 
-<!-- Session 02 -->
+## Session 02
 1. Built a signup form with First Name, Last Name, Email, Mobile, Password, Confirm Password and Remember me fields.
 -> /session-02/signup.html
 
@@ -25,7 +25,7 @@
 -> accessibility-report.html
 
 
-<!-- Session 03 -->
+## Session 03
 1. Practiced CSS selectors (element, id, class, attribute).
 -> /session-03/style.css (linked to /session01/signup.html)
 
@@ -46,7 +46,7 @@
 -> /session-03/boxmodel-before.png
 -> /session-03/boxmodel-after.png
 
-<!-- Session 04 -->
+## Session 04
 
 1. Continued working on yesterday’s (02/09/2025) portfolio project.
     - Copied index.html and style.css from yesterday into today’s folder.
