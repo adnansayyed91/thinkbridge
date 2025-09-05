@@ -1,0 +1,61 @@
+/* Element selector */
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Element selector */
+form{
+    width: 40vw;
+    margin-top: 100px;box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+/* Element selector */
+fieldset{
+    margin: 20px;
+}
+
+#heading{
+    text-align: center;
+}
+
+/* Element selector */
+input {
+  border: 1px solid #ccc;  /* border */
+  padding: 8px;   /* inside-border */
+  margin-bottom: 10px;   /* bottom-outside space*/
+}
+
+/* ID selector */
+#email {
+  border-color: blue;
+}
+
+/* Attribute selector */
+input[type="password"] {
+  border-color: green;
+}
+
+/* Class selector */
+.btn {
+  background: #597ea8;
+  color: white;
+  padding: 12px 40px;   /* more clickable area */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Cascade + specificity example */
+input {
+  color: black;       /* element selector */
+}
+input[type="email"] {
+  color: purple;      /* attribute selector preferred over element */
+}
+#email {
+  color: red;         /* id selector preferred over both */
+}

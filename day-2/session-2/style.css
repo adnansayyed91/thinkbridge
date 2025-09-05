@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5% 3%;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  background: #fff;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.hSpan {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.nav a {
+  font-style: italic;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: darkblue;
+}
+
+/* Main layout */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 3%;
+}
+
+/* Article cards */
+.article {
+  background: #fff;
+  color: black;
+  width: 30%;
+  min-width: 300px;
+  margin: 2%;
+  padding: 3%;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 2px 4px,
+    rgba(60, 64, 67, 0.15) 0px 3px 8px;
+  overflow: auto;
+}
+
+.arHead {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.abt {
+  text-align: justify;
+}
+
+/* Tech + Contact list */
+.tech li,
+.contact li {
+  width: 95%;
+  margin: 12px auto;
+  padding: 14px;
+  font-size: 1.2rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.tech li:hover,
+.contact li:hover {
+  transform: scale(1.08);
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+.footer {
+  width: 100%;
+  background: #a3aead;
+  font-size: 1.2rem; /* larger footer text */
+  color: rgb(60, 61, 62);
+  padding: 2% 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
