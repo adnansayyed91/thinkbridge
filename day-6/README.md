@@ -24,3 +24,32 @@ This project is a browser-only web application that lists the HTML, CSS, and Jav
 - **Session 3**: Add and style CSS keywords section
 - **Session 4**: Add JavaScript keywords section + interactivity (search/filter/tabs)
 - **Session 5**: Final polish — animations, responsive tweaks, and cleanup
+
+## Session 1
+
+### Tasks Completed
+- Created `day-6/` folder in the repository  
+- Added `src/` folder containing `index.html`, `style.css`, and `script.js` starter files  
+- Prepared project structure for further development  
+
+### Outcome
+Project setup completed successfully, ready for implementation in further sessions.  
+
+---
+
+## Session 2
+
+### Tasks Completed
+- Created the basic structure of the web application in `index.html`  
+  - Added header, footer, and main sections  
+  - Listed initial HTML, CSS, and JavaScript keywords  
+
+- Applied base styling in `style.css`  
+  - Fonts, background color, layout improvements  
+  - Styled keyword sections for better readability  
+
+- Added a simple script in `script.js`  
+  - Logs app readiness message to console  
+
+### Outcome
+The application now has a clean layout with sections for HTML, CSS, and JavaScript keywords, styled for readability.
