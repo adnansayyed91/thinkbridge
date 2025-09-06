@@ -1,25 +1,35 @@
-// Keywords arrays
-const htmlKeywords = [
-  { name: "<div>", desc: "Defines a division or section" },
-  { name: "<p>", desc: "Defines a paragraph" },
-  { name: "<a>", desc: "Defines a hyperlink" }
-];
+// Get references
+const searchInput = document.getElementById("search");
+const cards = document.querySelectorAll(".card");
 
-const cssKeywords = [
-  { name: "color", desc: "Sets the text color of an element" },
-  { name: "margin", desc: "Sets outer spacing of an element" },
-  { name: "padding", desc: "Sets inner spacing of an element" },
-  { name: "display", desc: "Defines display behavior (block, inline, flex, grid)" }
-];
+// Create a "no results" element dynamically
+const noResult = document.createElement("p");
+noResult.className = "no-result";
+noResult.textContent = "No keywords found.";
+noResult.style.display = "none";
+cards[0].parentElement.appendChild(noResult); // append after cards
 
-const jsKeywords = [
-  { name: "let", desc: "Declares a block-scoped variable" },
-  { name: "const", desc: "Declares a constant" },
-  { name: "function", desc: "Declares a function" }
-];
+function filterCards() {
+  const term = searchInput.value.toLowerCase();
+  let visibleCount = 0;
 
-// For now, just log them
-console.log("HTML Keywords:", htmlKeywords);
-console.log("CSS Keywords:", cssKeywords);
-console.log("JS Keywords:", jsKeywords);
-console.log("Session 3: Keywords added and styled.");
+  cards.forEach(card => {
+    const text = card.innerText.toLowerCase();
+    if (text.includes(term)) {
+      card.style.display = "";
+      visibleCount++;
+    } else {
+      card.style.display = "none";
+    }
+  });
+
+  // Show/hide no results
+  noResult.style.display = visibleCount ? "none" : "block";
+}
+
+// Debounce input for performance
+let debounceTimeout;
+searchInput.addEventListener("input", () => {
+  clearTimeout(debounceTimeout);
+  debounceTimeout = setTimeout(filterCards, 200);
+});

@@ -43,11 +43,9 @@ Project setup completed successfully, ready for implementation in further sessio
 - Created the basic structure of the web application in `index.html`  
   - Added header, footer, and main sections  
   - Listed initial HTML, CSS, and JavaScript keywords  
-
 - Applied base styling in `style.css`  
   - Fonts, background color, layout improvements  
   - Styled keyword sections for better readability  
-
 - Added a simple script in `script.js`  
   - Logs app readiness message to console  
 
@@ -69,3 +67,19 @@ The application now has a clean layout with sections for HTML, CSS, and JavaScri
 CSS keywords are now displayed in the app along with HTML and JavaScript keywords.  
 The layout is more visually appealing, with each section clearly separated and styled.  
 The app is ready for adding interactivity and dynamic features in the next session.
+
+---
+
+## Session 4
+
+## Tasks Completed
+- Added JavaScript keywords section
+- Added VS Code keywords section (UI tips, extensions, shortcuts)
+- Implemented search/filter functionality in script.js
+- Styled JavaScript and VS Code keywords for dark theme
+- Added hover effects and subtle card animations
+
+### Outcome
+All learned keywords are now displayed interactively.
+Users can search and filter keywords dynamically.
+The app is fully functional and visually polished for Session 4.
