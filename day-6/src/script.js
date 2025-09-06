@@ -1,35 +1,32 @@
-// Get references
-const searchInput = document.getElementById("search");
-const cards = document.querySelectorAll(".card");
-
-// Create a "no results" element dynamically
-const noResult = document.createElement("p");
-noResult.className = "no-result";
-noResult.textContent = "No keywords found.";
-noResult.style.display = "none";
-cards[0].parentElement.appendChild(noResult); // append after cards
-
 function filterCards() {
-  const term = searchInput.value.toLowerCase();
-  let visibleCount = 0;
+  var search = document.getElementById("search").value.toLowerCase();
+  var cards = document.querySelectorAll(".card");
+  var found = false;
 
-  cards.forEach(card => {
-    const text = card.innerText.toLowerCase();
-    if (text.includes(term)) {
+  cards.forEach(function(card) {
+    var text = card.innerText.toLowerCase();
+    if (text.includes(search)) {
       card.style.display = "";
-      visibleCount++;
+      found = true;
     } else {
       card.style.display = "none";
     }
   });
 
-  // Show/hide no results
-  noResult.style.display = visibleCount ? "none" : "block";
-}
+  // Show "no results" only if search is not empty
+  var cardsContainer = document.getElementById("cards");
+  var existingNoResult = document.querySelector(".no-result");
 
-// Debounce input for performance
-let debounceTimeout;
-searchInput.addEventListener("input", () => {
-  clearTimeout(debounceTimeout);
-  debounceTimeout = setTimeout(filterCards, 200);
-});
+  if (search.trim() !== "" && !found) {
+    if (!existingNoResult) {
+      var msg = document.createElement("p");
+      msg.className = "no-result";
+      msg.textContent = "No keywords found.";
+      cardsContainer.appendChild(msg);
+    }
+  } else {
+    if (existingNoResult) {
+      existingNoResult.remove();
+    }
+  }
+}

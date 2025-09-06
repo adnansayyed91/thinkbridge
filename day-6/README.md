@@ -83,3 +83,18 @@ The app is ready for adding interactivity and dynamic features in the next sessi
 All learned keywords are now displayed interactively.
 Users can search and filter keywords dynamically.
 The app is fully functional and visually polished for Session 4.
+
+---
+
+## Session 5
+
+## Tasks Completed
+- Added subtle hover animations on cards
+- Ensured responsive design for all screen sizes
+- Added footer with project information
+- Search now only shows “No keywords found” when relevant
+- Cleaned up CSS, HTML, and JS for readability
+
+### Outcome
+
+Final polished version of the web application with complete functionality, responsive layout, and clean UI. Ready for deployment or sharing.

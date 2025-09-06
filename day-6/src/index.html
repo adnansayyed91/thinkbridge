@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dev Reference Guide</title>
+  <link rel="icon" href="https://img.icons8.com/?size=100&id=HRcZ1Ac5k5xo&format=png&color=000000" type="image/png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +18,9 @@
 
     <!-- Search -->
     <div class="search-container" role="search">
-      <input id="search" type="text" placeholder="Search keywords...">
+      <!-- <input id="search" type="text" placeholder="Search keywords..."> -->
+      <input id="search" type="text" placeholder="Search keywords..." oninput="filterCards()">
+
     </div>
 
     <!-- Cards -->
@@ -191,11 +194,12 @@
         <p>Productivity features like multi-cursor, split view, and snippets.</p>
       </div>
 
-      <!-- No results placeholder -->
-      <p class="no-result">No keywords found.</p>
-
     </main>
   </div>
+
+  <footer>
+  <p>© 2025 Adnan Sayyed | Dev Reference Guide</p>
+</footer>
 
   <script src="script.js"></script>
 </body>
