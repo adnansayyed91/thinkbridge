@@ -29,10 +29,15 @@ main {
   max-width: 900px;
   margin: 2rem auto;
   padding: 0 1rem;
+  display: grid;
+  gap: 2rem;
 }
 
+/* Keywords sections */
 .keywords-section {
-  margin-bottom: 2rem;
+  background: #e0e7ff;
+  padding: 1rem;
+  border-radius: 8px;
 }
 
 .keywords-section h2 {
@@ -46,12 +51,14 @@ main {
 }
 
 .keywords-section li {
-  background: #e0e7ff;
+  background: #ffffff;
   margin: 0.5rem 0;
   padding: 0.7rem;
   border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
+/* Footer */
 footer {
   background: #f3f4f6;
   text-align: center;

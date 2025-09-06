@@ -53,3 +53,19 @@ Project setup completed successfully, ready for implementation in further sessio
 
 ### Outcome
 The application now has a clean layout with sections for HTML, CSS, and JavaScript keywords, styled for readability.
+
+---
+
+## Session 3
+
+### Tasks Completed
+- Added CSS keywords section with proper HTML structure
+- Updated `script.js` to include CSS keywords array along with HTML and JS keywords
+- Styled the CSS keywords section in `style.css` for readability
+- Improved layout for all sections using grid spacing
+- Added box shadows and card-style design for keyword items
+
+### Outcome
+CSS keywords are now displayed in the app along with HTML and JavaScript keywords.  
+The layout is more visually appealing, with each section clearly separated and styled.  
+The app is ready for adding interactivity and dynamic features in the next session.
