@@ -1,0 +1,68 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+header {
+  background: #2563eb;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 2rem;
+}
+
+/* Keywords sections */
+.keywords-section {
+  background: #e0e7ff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.keywords-section h2 {
+  color: #2563eb;
+  margin-bottom: 0.5rem;
+}
+
+.keywords-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.keywords-section li {
+  background: #ffffff;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #f3f4f6;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
