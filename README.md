@@ -31,12 +31,21 @@ The work is organized **day-wise** and further broken down into **sessions**.
 - [x] Session 3: Repo management  
 - [x] Session 4: Upload completed work  
 
-### 🔄 Day 5 – Ongoing
-- [ ] Session 1: Review  
-- [ ] Session 2: GitHub consolidation & Harmony Engine  
-- [ ] Session 3: Functions, Scope & Objects  
-- [ ] Session 4: Paper Test  
-- [ ] Session 5: CSS Polish  
+### ✅ Day 5 – Ongoing
+- [x] Session 1: Review  
+- [x] Session 2: GitHub consolidation & Harmony Engine  
+- [x] Session 3: Functions, Scope & Objects  
+- [x] Session 4: Paper Test  
+- [x] Session 5: CSS Polish
+
+### ✅ Day 6 – All Day Lab
+- [x] Lab Task: Build a browser-only web application that lists all the HTML, CSS, and JavaScript keywords you have learned and their functionality.
+- [x] Implementation: Create a new day6 folder in the Thinkbridge repo and check-in all files. 
+- [x] Git Workflow:
+   - Create a new branch for every session.
+   - Check-in the session code to its branch.
+   - Open 5 pull requests toward main.
+- [x] Goal: Showcase your skills by making the web app delightful to use using everything learned so far.
 
 ---
 
@@ -47,8 +56,6 @@ The work is organized **day-wise** and further broken down into **sessions**.
 ---
 
 ## 📝 Notes
-- Repo visibility: **Private**  
-- Access will be provided only to trainers/mentors.  
 - Each day’s folder contains the respective session work.  
 
 ---
