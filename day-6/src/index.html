@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Reference Guide</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Dev Reference Guide</h1>
+      <p>Quick reference for core web development keywords</p>
+    </header>
+
+    <!-- Search -->
+    <div class="search-container" role="search">
+      <input id="search" type="text" placeholder="Search keywords...">
+    </div>
+
+    <!-- Cards -->
+    <main id="cards" class="cards">
+
+      <!-- HTML Keywords -->
+      <div class="card" data-type="html">
+        <h2>HTML Document Structure</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>Boilerplate with &lt;!DOCTYPE html&gt;, &lt;html&gt;, &lt;head&gt;, &lt;body&gt;.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Headings</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;h1&gt; to &lt;h6&gt; define headings of different importance.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Paragraphs</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;p&gt; defines a paragraph of text.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Hyperlinks</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;a&gt; creates links to other pages or resources.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Lists</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;ul&gt; for unordered, &lt;ol&gt; for ordered, &lt;li&gt; for list items.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Images</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;img&gt; displays an image in the document.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Buttons</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;button&gt; creates a clickable button.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Forms</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>Used to collect user input; includes &lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;.</p>
+      </div>
+      <div class="card" data-type="html">
+        <h2>Tables</h2>
+        <span class="tag html-tag">HTML</span>
+        <p>&lt;table&gt;, &lt;tr&gt;, &lt;td&gt; are used for tabular data.</p>
+      </div>
+
+      <!-- CSS Keywords -->
+      <div class="card" data-type="css">
+        <h2>Color</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Sets text color using names, hex, RGB, or HSL values.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Background</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Sets background color or image of an element.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Margin</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Controls outer spacing of an element.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Padding</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Controls inner spacing of an element.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Border</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Sets width, style, and color of element borders.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Display</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Defines display behavior: block, inline, flex, or grid.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Flex</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>Flexible layout for children in a container.</p>
+      </div>
+      <div class="card" data-type="css">
+        <h2>Font</h2>
+        <span class="tag css-tag">CSS</span>
+        <p>font-size sets text size; font-family sets typeface.</p>
+      </div>
+
+      <!-- JavaScript Keywords -->
+      <div class="card" data-type="javascript">
+        <h2>let / const / var</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>Variable declarations: block-scoped (let/const) or function-scoped (var).</p>
+      </div>
+      <div class="card" data-type="javascript">
+        <h2>Functions</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>Reusable blocks of code to perform tasks.</p>
+      </div>
+      <div class="card" data-type="javascript">
+        <h2>If / Else</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>Conditional statements to control code flow.</p>
+      </div>
+      <div class="card" data-type="javascript">
+        <h2>Loops</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>for and while loops to iterate over code blocks.</p>
+      </div>
+      <div class="card" data-type="javascript">
+        <h2>DOM</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>Document Object Model representing page structure.</p>
+      </div>
+      <div class="card" data-type="javascript">
+        <h2>Events</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>Actions like clicks or inputs that trigger JavaScript code.</p>
+      </div>
+      <div class="card" data-type="javascript">
+        <h2>Return</h2>
+        <span class="tag js-tag">JavaScript</span>
+        <p>Returns a value from a function.</p>
+      </div>
+
+      <!-- VS Code / Extensions -->
+      <div class="card" data-type="vscode">
+        <h2>VS Code UI</h2>
+        <span class="tag vscode-tag">VS Code</span>
+        <p>Explorer, Terminal, Search, Extensions, Settings panels.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>Command Palette</h2>
+        <span class="tag vscode-tag">VS Code</span>
+        <p>Quick access to all commands using Ctrl+Shift+P.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>Settings Sync</h2>
+        <span class="tag vscode-tag">VS Code</span>
+        <p>Sync extensions, themes, and settings across devices.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>Prettier</h2>
+        <span class="tag vscode-tag">Extension</span>
+        <p>Code formatter for consistent styling.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>Live Server</h2>
+        <span class="tag vscode-tag">Extension</span>
+        <p>Launches a local development server with live reload.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>ESLint</h2>
+        <span class="tag vscode-tag">Extension</span>
+        <p>Identifies and fixes JavaScript problems.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>Keyboard Shortcuts</h2>
+        <span class="tag vscode-tag">Extension</span>
+        <p>Customizable shortcuts for efficiency.</p>
+      </div>
+      <div class="card" data-type="vscode">
+        <h2>Tips & Tricks</h2>
+        <span class="tag vscode-tag">VS Code</span>
+        <p>Productivity features like multi-cursor, split view, and snippets.</p>
+      </div>
+
+      <!-- No results placeholder -->
+      <p class="no-result">No keywords found.</p>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
